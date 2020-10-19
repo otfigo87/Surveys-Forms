@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    max-width: 66%;
+    margin: auto;
+    background-color: lightblue;
+}
+legend {
+    background: purple;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+}
+fieldset {
+    background-color: lavender;
+    border: 5px solid darkslateblue;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    min-width: 250px;
+}
+div {
+    margin: 10px;
+}
+div:hover{
+    color: blue;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    max-width: 200px;
+    white-space: pre;
+}
+input[type="radio"]+label, input[type="checkbox"]+label {
+    width: auto;
+}
+input[type="range"]+label {
+    width: 20%;
+}
+.range-caption {
+    background: plum;
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
