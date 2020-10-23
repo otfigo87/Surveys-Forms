@@ -16,8 +16,8 @@
         
     <form id="survey-form">
       <div class="group-form">
-        <label id="name-label">Name</label>
-        <input id="title" class="form-control" type="text" name="name" placeholder="Enter your name" required/>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" class="form-control" type="text" name="name" placeholder="Enter your name" required/>
       </div>
       
       <div class="form-group">
@@ -26,7 +26,7 @@
        </div>
       
       <div class="form-group">
-        <label id="number-label">Age (optional)</label>
+        <label id="number-label" for="number">Age (optional)</label>
         <input type="number" id="number" class="form-control" name="age" placeholder="Age" min="18" max="99">
       </div>
       
@@ -44,7 +44,7 @@
       
       <div class="form-group">
          <p>Would you recommend this service to a friend?</p>
-           <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>Definitely<br>
+        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>Definitely<br>
         <input name="user-recommend" value="maybe" type="radio" class="input-radio"/>Maybe<br>
         <input name="user-recommend" value="not-sure" type="radio" class="input-radio"/>Not sure
       </div>
